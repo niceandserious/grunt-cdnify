@@ -36,5 +36,14 @@ exports.embed = {
     expected = read('test/expected/sample-custom-options.html');
     test.equal(actual, expected);
     test.done();
+  },
+
+  'Compressed CSS': function (test) {
+    var actual, expected;
+    test.expect(1);
+    actual = read('test/output/compressed.css');
+    expected = read('test/expected/compressed.css');
+    test.equal(actual, expected);
+    test.done();
   }
 };

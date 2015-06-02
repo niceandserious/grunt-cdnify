@@ -23,6 +23,7 @@ module.exports = function(grunt) {
       options: { base: '//cdn.example.com/stuff/' },
       defaultOptions: {
         files: {
+          'test/output/compressed.css': 'test/fixtures/compressed.css',
           'test/output/sample.css': 'test/fixtures/sample.css',
           'test/output/sample.html': 'test/fixtures/sample.html'
         }

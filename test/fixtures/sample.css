@@ -3,4 +3,5 @@ body {
   background-image: url('/foo.jpg');
   background-image: url('../foo.jpg');
   background-image: url('foo/bar.jpg');
+  background: url('foo.jpg');
 }
