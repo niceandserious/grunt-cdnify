@@ -2,6 +2,8 @@
 
 > Grunt plugin for rewriting static resource URLs found in your HTML and CSS.
 
+**nb. this is the niceandserious fork, which fixes bugs in both grunt-cdnify and its dependency css-url-rewriter**
+
 ## What it does
 The task looks through your specified files for URLs to rewrite, in the following places:
 
